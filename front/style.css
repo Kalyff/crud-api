@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f5f7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.container {
+  background: #fff;
+  width: 450px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+#btnCadastrar {
+  background: #3472c9;
+  color: white;
+}
+#btnCadastrar:hover {
+  background: #0a59d8;
+}
+
+#btnAtualizar {
+  background: #21cad6;
+  color: white;
+}
+#btnAtualizar:hover {
+  background: #16a5d4;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+#lista p {
+  background: #f6f6f6;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+#lista b {
+  color: #222;
+}
+
+#lista button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+
+#lista button:first-of-type {
+  background: #ffc107;
+  color: #333;
+}
+
+#lista button:last-of-type {
+  background: #dc3545;
+  color: white;
+}
